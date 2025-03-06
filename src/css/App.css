@@ -1,0 +1,58 @@
+#root{
+  margin: 0;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 140px;
+}
+
+header > img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+section{
+  margin: 10px;
+  max-width: 600px;
+}
+
+form > input, form> button {
+  padding: 10px;
+
+}
+
+form> input {
+  margin-right: 10px;
+  width: 300px;
+  outline: none;
+  border: 1px solid black;
+}
+
+#getARecipe{
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px 22px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+}
+#getARecipe > div{
+  margin-right: 20px;
+}
+
+#getARecipe > button{
+  border: 1px solid black;
+  padding: 8px 12px;
+  background-color: rgb(225, 84, 84);
+}
+
+#getARecipe > button:hover{
+  cursor: pointer;
+  background-color: rgb(224, 60, 60);
+
+}
